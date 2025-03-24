@@ -1,0 +1,255 @@
+/* Reset básico y tipografía */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.nav__ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.nav__ul a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav__ul a:hover {
+    color: #ffd700;
+}
+
+/* Sección principal */
+.main__section {
+    background: url('img/wallpaper.jpg') no-repeat center center/cover;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.container__brian {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.img_brian {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-bottom: 1rem;
+}
+
+.main__h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.main__h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #ffd700;
+}
+
+.main__description {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+/* Redes sociales - Logos */
+.social_media_ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.social_media_ul li {
+    /* Se utiliza un contenedor flex para centrar cada logo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social_media_ul li:hover {
+    transform: scale(1.1);
+}
+
+.social_media_ul img {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Abilities / Tecnologías */
+.my__abilities {
+    background: #fff;
+    padding: 2rem 0;
+}
+
+.container__abilities {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.img_abilities {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.img_abilities:hover {
+    transform: scale(1.1);
+}
+
+/* About Me */
+.about_me {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background: #e2eaff;
+}
+
+.about_div {
+    text-align: center;
+    margin: 1rem;
+    max-width: 250px;
+}
+
+.about_div img {
+    width: 50px;
+    margin-bottom: 0.5rem;
+}
+
+/* Proyectos */
+.section__proyectos {
+    padding: 2rem;
+    background: #fff;
+}
+
+.container__projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 300px;
+    padding: 1rem;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img_project {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    object-fit: cover;
+}
+
+/* Formulario de contacto */
+.form_input {
+    background: #18233f;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact_form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form label {
+    margin-top: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact_form input,
+.contact_form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact_form button {
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    border: none;
+    background: #ffd700;
+    color: #333;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact_form button:hover {
+    background: #e6c200;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.footer__ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer__ul a {
+    color: #fff;
+    text-decoration: none;
+}
