@@ -107,7 +107,7 @@
     </section>
     <section id="contact" class="form_input">
         <h3 class="h3_form_input__h3">Interested in working with me?</h3>
-        <form action="https://3.142.249.63:443/enviar" method="POST" class="contact_form">
+        <form action="https://portafolio-cshu.onrender.com/enviar" method="POST" class="contact_form">
             <label for="txt_nombre">Name</label>
             <input type="text" name="nombre" class="input_name" id="txt_nombre" placeholder="Your name" required>
             <label for="txt_email">Email</label>
@@ -118,6 +118,48 @@
         </form>
     </section>
 </main>
+<section id="donaciones">
+    <h2>🎓 Support Me with a Donation</h2>
+    <p class="message">
+        If you want to help me continue my programming studies, you can support me with a donation. Thank you!
+    </p>
+
+    <div style="margin: 1.5em 0;">
+        <!-- Botón de MercadoPago -->
+        <a href="https://link.mercadopago.com.mx/brianhazel" target="_blank" class="donation-button">
+            Donate with MercadoPago
+        </a>
+    </div>
+
+    <div class="wallet-section">
+        <p><strong>Cryptocurrencies:</strong></p>
+
+        <div>
+            <p><strong>Bitcoin (BTC):</strong></p>
+            <code>1BpT3TnPZgBFxToA16KTbqNuwmWpR6eCEU</code>
+            <p>Red: Bitcoin</p>
+        </div>
+
+        <div style="margin-top: 1em;">
+            <p><strong>USDT:</strong></p>
+            <code>TD9kzVWSnk9ctUx1729iCDFnN4vu7wRZrY</code>
+            <p>Red: TRON (TRC-20)</p>
+        </div>
+
+        <div style="margin-top: 1em;">
+            <button onclick="copyWallet('1BpT3TnPZgBFxToA16KTbqNuwmWpR6eCEU')">Copiar BTC</button>
+            <button onclick="copyWallet('TD9kzVWSnk9ctUx1729iCDFnN4vu7wRZrY')">Copiar USDT</button>
+        </div>
+    </div>
+
+    <script>
+        function copyWallet(wallet) {
+            navigator.clipboard.writeText(wallet).then(() => {
+                alert("Wallet copied: " + wallet);
+            });
+        }
+    </script>
+</section>
 <footer class="footer">
     <div class="footer__content">
         <ul class="footer__ul">

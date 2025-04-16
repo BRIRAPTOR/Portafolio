@@ -257,6 +257,68 @@ body {
 .contact_form button:hover {
     background: #e6c200;
 }
+     /* Estilo general para la sección de donaciones */
+ #donaciones {
+     text-align: center;
+     padding: 2em;
+     background: #f7f7f7;
+     border-radius: 10px;
+     max-width: 600px;
+     margin: 2em auto;
+     font-family: 'Arial', sans-serif;
+     color: #333;
+ }
+/* Encabezado y mensaje */
+#donaciones h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+#donaciones .message {
+    font-style: italic;
+    margin-bottom: 1.5em;
+    font-size: 1.1em;
+}
+/* Botón de donación */
+.donation-button {
+    display: inline-block;
+    background: #009ee3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+.donation-button:hover {
+    background: #007ab8;
+}
+/* Estilos para la sección de criptomonedas */
+.wallet-section {
+    margin: 1.5em 0;
+    background: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.wallet-section code {
+    background: #e8e8e8;
+    padding: 0.2em 0.5em;
+    border-radius: 3px;
+    font-family: monospace;
+}
+.wallet-section button {
+    margin: 0.3em;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.wallet-section button:hover {
+    background: #218838;
+}
 
 /* Footer */
 .footer {
